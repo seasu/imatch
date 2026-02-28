@@ -1,0 +1,7 @@
+{
+  "version": 1, "id": "0010", "type": "BossAttack",
+  "board": { "width": 9, "height": 9, "colors": ["Red","Blue","Green","Yellow","Purple"], "spawnWeights": {"Red":1,"Blue":1,"Green":1,"Yellow":1,"Purple":1} },
+  "moves": 18,
+  "boss": { "hp": 120 },
+  "rewards": { "coins": 200 }
+}

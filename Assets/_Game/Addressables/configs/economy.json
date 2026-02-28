@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "startingCoins": 500,
+  "startingGems": 50,
+  "maxLives": 5,
+  "boosters": {
+    "Hammer": { "startingCount": 3, "coinPrice": 200 },
+    "StartRocket": { "startingCount": 1, "coinPrice": 150 },
+    "StartBomb": { "startingCount": 1, "coinPrice": 150 }
+  }
+}

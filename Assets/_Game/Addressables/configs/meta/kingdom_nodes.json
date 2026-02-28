@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "nodes": [
+    { "id": "n001", "type": "BuildNode", "title": "Town Gate",     "costCoins": 300, "prereq": [] },
+    { "id": "n002", "type": "PuzzleGate","title": "Clear the Road","levelId": "0001","prereq": ["n001"] },
+    { "id": "n003", "type": "BuildNode", "title": "Watchtower",    "costCoins": 400, "prereq": ["n002"] },
+    { "id": "n004", "type": "PuzzleGate","title": "Forest Path",   "levelId": "0002","prereq": ["n003"] },
+    { "id": "n005", "type": "BuildNode", "title": "Blacksmith",    "costCoins": 500, "prereq": ["n004"] },
+    { "id": "n006", "type": "PuzzleGate","title": "River Crossing","levelId": "0003","prereq": ["n005"] },
+    { "id": "n007", "type": "BuildNode", "title": "Market Stall",  "costCoins": 350, "prereq": ["n006"] },
+    { "id": "n008", "type": "PuzzleGate","title": "Bandit Camp",   "levelId": "0004","prereq": ["n007"] },
+    { "id": "n009", "type": "BuildNode", "title": "Barracks",      "costCoins": 600, "prereq": ["n008"] },
+    { "id": "n010", "type": "PuzzleGate","title": "Mountain Pass", "levelId": "0005","prereq": ["n009"] },
+    { "id": "n011", "type": "BuildNode", "title": "Library",       "costCoins": 700, "prereq": ["n010"] },
+    { "id": "n012", "type": "PuzzleGate","title": "Ancient Ruins", "levelId": "0006","prereq": ["n011"] },
+    { "id": "n013", "type": "BuildNode", "title": "Temple",        "costCoins": 800, "prereq": ["n012"] },
+    { "id": "n014", "type": "PuzzleGate","title": "Dragon Lair",   "levelId": "0010","prereq": ["n013"] }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1, "id": "0006", "type": "Normal",
+  "board": { "width": 9, "height": 9, "colors": ["Red","Blue","Green","Yellow","Purple"], "spawnWeights": {"Red":1,"Blue":1,"Green":1,"Yellow":1,"Purple":1} },
+  "moves": 22,
+  "goals": [
+    { "kind": "DestroyObstacles", "obstacle": "Crate", "count": 20 },
+    { "kind": "CollectColor", "color": "Green", "count": 30 }
+  ],
+  "layout": { "cells": [] },
+  "rewards": { "coins": 110 }
+}

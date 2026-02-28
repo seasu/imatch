@@ -1,0 +1,22 @@
+{
+    "name": "Game.Tests.EditMode",
+    "rootNamespace": "Game.Tests",
+    "references": [
+        "GUID:Game.Core",
+        "GUID:Game.Content",
+        "GUID:Game.Persistence",
+        "GUID:Game.Analytics",
+        "GUID:Game.QA",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [ "Editor" ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [ "nunit.framework.dll" ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

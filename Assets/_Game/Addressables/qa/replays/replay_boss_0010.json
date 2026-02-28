@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "levelId": "0010",
+  "seed": 987654321,
+  "attemptIndex": 0,
+  "actions": [
+    { "t": 0,  "type": "swap", "a": [4,4], "b": [4,5] },
+    { "t": 1,  "type": "swap", "a": [2,2], "b": [3,2] },
+    { "t": 2,  "type": "swap", "a": [6,6], "b": [6,7] },
+    { "t": 3,  "type": "swap", "a": [1,4], "b": [2,4] },
+    { "t": 4,  "type": "swap", "a": [7,3], "b": [8,3] },
+    { "t": 5,  "type": "swap", "a": [0,1], "b": [1,1] },
+    { "t": 6,  "type": "swap", "a": [5,5], "b": [5,6] },
+    { "t": 7,  "type": "swap", "a": [3,7], "b": [4,7] },
+    { "t": 8,  "type": "swap", "a": [2,0], "b": [3,0] },
+    { "t": 9,  "type": "swap", "a": [6,2], "b": [7,2] },
+    { "t": 10, "type": "swap", "a": [1,6], "b": [1,7] },
+    { "t": 11, "type": "swap", "a": [4,1], "b": [5,1] },
+    { "t": 12, "type": "swap", "a": [8,5], "b": [8,6] },
+    { "t": 13, "type": "swap", "a": [0,3], "b": [0,4] },
+    { "t": 14, "type": "swap", "a": [3,5], "b": [4,5] },
+    { "t": 15, "type": "swap", "a": [7,7], "b": [8,7] },
+    { "t": 16, "type": "swap", "a": [2,6], "b": [2,7] },
+    { "t": 17, "type": "swap", "a": [5,3], "b": [5,4] }
+  ],
+  "expected": {
+    "result": "incomplete",
+    "movesUsed": 18,
+    "bossHpRemaining": null,
+    "coinsGained": 0,
+    "note": "Boss replay verifies deterministic damage accumulation over 18 moves; exact HP depends on board seed."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "levelId": "0001",
+  "seed": 123456789,
+  "attemptIndex": 0,
+  "actions": [
+    { "t": 0,  "type": "swap",   "a": [4,4], "b": [4,5] },
+    { "t": 1,  "type": "swap",   "a": [2,3], "b": [3,3] },
+    { "t": 2,  "type": "swap",   "a": [6,7], "b": [6,6] },
+    { "t": 3,  "type": "swap",   "a": [1,1], "b": [2,1] },
+    { "t": 4,  "type": "hammer", "cell": [4,4] },
+    { "t": 5,  "type": "swap",   "a": [0,5], "b": [1,5] },
+    { "t": 6,  "type": "swap",   "a": [5,2], "b": [5,3] },
+    { "t": 7,  "type": "swap",   "a": [3,6], "b": [4,6] },
+    { "t": 8,  "type": "swap",   "a": [7,1], "b": [8,1] },
+    { "t": 9,  "type": "swap",   "a": [2,8], "b": [3,8] },
+    { "t": 10, "type": "swap",   "a": [6,3], "b": [6,4] },
+    { "t": 11, "type": "swap",   "a": [0,7], "b": [0,8] }
+  ],
+  "expected": {
+    "result": "incomplete",
+    "movesUsed": 12,
+    "bossHpRemaining": null,
+    "coinsGained": 0,
+    "note": "Smoke replay verifies deterministic board state after 12 actions; result may vary with implementation."
+  }
+}

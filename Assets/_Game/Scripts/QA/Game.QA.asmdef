@@ -1,0 +1,20 @@
+{
+    "name": "Game.QA",
+    "rootNamespace": "Game.QA",
+    "references": [
+        "GUID:Game.Core",
+        "GUID:Game.Content",
+        "GUID:Game.Persistence",
+        "GUID:Game.Analytics",
+        "Unity.Addressables"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
