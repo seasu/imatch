@@ -1,0 +1,22 @@
+{
+    "name": "Game.Unity",
+    "rootNamespace": "Game.Unity",
+    "references": [
+        "GUID:Game.Core",
+        "GUID:Game.Content",
+        "GUID:Game.Persistence",
+        "GUID:Game.Analytics",
+        "GUID:Game.QA",
+        "Unity.Addressables",
+        "Unity.ResourceManager"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
